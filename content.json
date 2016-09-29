@@ -1,0 +1,50 @@
+{
+ "address": "1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz",
+ "background-color": "#3F51B5",
+ "description": "Sample trusted authorization provider",
+ "domain": "zeroid.bit",
+ "files": {
+  "css/all.css": {
+   "sha512": "1a991c7685724a6de3a9c6a6097fcfa830704edd61c90ba84b3f70818569c53a",
+   "size": 74387
+  },
+  "data/archive.py": {
+   "sha512": "ad0818adfe413ade28e9a712f841fec70170e901bdecde9290cbc1a5abcac8b7",
+   "size": 309
+  },
+  "data/users.json": {
+   "sha512": "9472914a6f4171e572b145aa439ad4a7a64fc82de40042c4dadec52189148d1a",
+   "size": 426914
+  },
+  "data/users_archive.json": {
+   "sha512": "c54519f2b125bce486d95cd7ee2bc66a9a442cdd0efc1dd5ab01e1878539f6ab",
+   "size": 3284413
+  },
+  "img/loading.gif": {
+   "sha512": "8a42b98962faea74618113166886be488c09dad10ca47fe97005edc5fb40cc00",
+   "size": 723
+  },
+  "index.html": {
+   "sha512": "04b36f24ac215f93d41e80beb3afd36f65e6fe0a6a3ce2c6b15a2fc9eddb55ec",
+   "size": 1720
+  },
+  "js/all.js": {
+   "sha512": "79a112e302d6c846920f98d0ea4b64c0f3af272635b68eee1d0f33560a28b7f0",
+   "size": 388092
+  }
+ },
+ "ignore": "(js|css)/(?!all.(js|css))",
+ "inner_path": "content.json",
+ "modified": 1475149087.969021,
+ "sign": [
+  32628981017905894686329238628050950194743072494497041813729089097807199308483,
+  90224697897505997688709764480700448649974655899368095928562175664468010959614
+ ],
+ "signers_sign": "G7d9tTFjHbptCSR/TDr2mA1OILLhWMtVGvKZcLIwW56ut0V+kPDgrivp+hZ7/C9IUOQ6dQzVVHKJK5XBSqm+QPw=",
+ "signs": {
+  "1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz": "G3CjVCqmWmQtcDbt2wSxP5nNPbx9HItyvmFCIyOO+65duovlVEOAA1MCMd4MT1umi9Kad0XKbSxMZXgJU1VJ5Lw="
+ },
+ "signs_required": 1,
+ "title": "ZeroID",
+ "zeronet_version": "0.4.1"
+}
